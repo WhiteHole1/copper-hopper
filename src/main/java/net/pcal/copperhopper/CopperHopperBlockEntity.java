@@ -39,7 +39,7 @@ import net.minecraft.world.level.block.state.BlockState;
 
 public class CopperHopperBlockEntity extends HopperBlockEntity implements WorldlyContainer, CopperInventory {
 
-    private static final int[] SLOTS = new int[]{0, 1, 2, 3, 4};
+    private static final int[] SLOTS = new int[]{0, 1, 2, 3, 4, 5};
 
     public CopperHopperBlockEntity(BlockPos pos, BlockState state) {
         super(pos, state);
